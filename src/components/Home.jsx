@@ -1,6 +1,7 @@
 import React from 'react'
 import heroimg from '../assets/1.png'
 import { AiOutlineArrowRight } from "react-icons/ai";
+import './omee.css'
 
 const Home = () => {
   return (
@@ -24,8 +25,11 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='flex flex-1'>
-                <img src={heroimg} alt="profile" className='rounded-2xl mx-auto w-2/3  md:w-full md:h-60 ' />
+            <div className='flex flex-1 items-center justify-center '>
+                <div className="ali md:w-full">
+
+                <img src={heroimg} alt="profile" className=' ali-2 rounded-2xl mx-auto md:w-full ' />
+                </div>
             </div>
         </div>
     </div>
